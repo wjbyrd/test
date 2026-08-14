@@ -1,0 +1,602 @@
+{
+  "answerVerification": {
+    "passed": true,
+    "questionCount": 891
+  },
+  "assetDelivery": "embedded-data-uri",
+  "assetInventory": [
+    {
+      "embedded": true,
+      "path": "question-assets/elasticity/ELAS-01.webp",
+      "sha256": "1804cb5937b71622452094ed43181e8cebc92e2fe5988ba18434776f2d4b91a4",
+      "sizeBytes": 40024
+    },
+    {
+      "embedded": true,
+      "path": "question-assets/elasticity/ELAS-02.webp",
+      "sha256": "744874b053c2349b42cd407e4a789d33ffbf62a3416a8dcf64ef68d2c2513ac5",
+      "sizeBytes": 56656
+    },
+    {
+      "embedded": true,
+      "path": "question-assets/elasticity/ELAS-03.webp",
+      "sha256": "a8ec0dd32cd1c6038a48571dc83678eef213c07082b23f6a61ac6b8a56052cba",
+      "sizeBytes": 29280
+    },
+    {
+      "embedded": true,
+      "path": "question-assets/elasticity/ELAS-05.webp",
+      "sha256": "41715d4d6ccad3df7a7c8e5b247c87b204faffe4183635f94dd620f5f59c1be1",
+      "sizeBytes": 60244
+    },
+    {
+      "embedded": true,
+      "path": "question-assets/production-possibilities-frontier/ppf.webp",
+      "sha256": "961e4a0c034de2ee5662f004cb0a343825290ca663dbe80b9ae6ad7dd0617a5a",
+      "sizeBytes": 41172
+    }
+  ],
+  "bossCoverage": {
+    "checkpointOne": {
+      "activeConceptIds": [
+        "marginal-analysis",
+        "opportunity-cost",
+        "scarcity-and-tradeoffs",
+        "production-possibilities-frontier",
+        "elasticity"
+      ],
+      "automatic": true,
+      "difficulty": "easy",
+      "eligibleConceptIds": [
+        "marginal-analysis",
+        "opportunity-cost",
+        "scarcity-and-tradeoffs",
+        "production-possibilities-frontier",
+        "elasticity"
+      ],
+      "label": "Checkpoint One",
+      "pool": "easyBoss",
+      "questionCount": 37
+    },
+    "checkpointTwo": {
+      "activeConceptIds": [
+        "marginal-analysis",
+        "opportunity-cost",
+        "scarcity-and-tradeoffs",
+        "production-possibilities-frontier",
+        "elasticity"
+      ],
+      "automatic": true,
+      "difficulty": "medium",
+      "eligibleConceptIds": [
+        "marginal-analysis",
+        "opportunity-cost",
+        "scarcity-and-tradeoffs",
+        "production-possibilities-frontier",
+        "elasticity"
+      ],
+      "label": "Checkpoint Two",
+      "pool": "mediumBoss",
+      "questionCount": 37
+    },
+    "finalCheckpoint": {
+      "activeConceptIds": [
+        "marginal-analysis",
+        "opportunity-cost",
+        "scarcity-and-tradeoffs",
+        "production-possibilities-frontier",
+        "elasticity"
+      ],
+      "automatic": true,
+      "difficulty": "hard",
+      "eligibleConceptIds": [
+        "marginal-analysis",
+        "opportunity-cost",
+        "scarcity-and-tradeoffs",
+        "production-possibilities-frontier",
+        "elasticity"
+      ],
+      "label": "Final Checkpoint",
+      "pool": "finalBoss",
+      "questionCount": 37
+    }
+  },
+  "checkpointFocus": {
+    "checkpointOne": null,
+    "checkpointTwo": null,
+    "finalCheckpoint": null
+  },
+  "composerVersion": "4.5s.2m",
+  "compositionFingerprint": "607c4af51828540c5a7a1733b001b77a7d7cbeb7b5001fa626601a4bcb965cd0",
+  "conceptReviewAddedBytes": 4523807,
+  "conceptReviewAssetInventory": [
+    {
+      "code": "GEN-ECON-01",
+      "path": "concept-reviews/GEN-ECON-01.pdf",
+      "sha256": "5dac31da45408511293b60b66179929fb18371c26668304d792921528881e332",
+      "sizeBytes": 353549
+    },
+    {
+      "code": "GEN-ECON-03",
+      "path": "concept-reviews/GEN-ECON-03.pdf",
+      "sha256": "b6b15c6e6d33a281c1711dadc75a60d829be215455fd31d5bb8e0b405d1a48cb",
+      "sizeBytes": 353443
+    },
+    {
+      "code": "GEN-ECON-04",
+      "path": "concept-reviews/GEN-ECON-04.pdf",
+      "sha256": "e07a41d8fe30a714c37e4be8e9458f0b4e7f0f0ad444d3c0dd097c64f290a533",
+      "sizeBytes": 353450
+    },
+    {
+      "code": "GEN-ECON-08",
+      "path": "concept-reviews/GEN-ECON-08.pdf",
+      "sha256": "7b0515683cdc4e1235d6ea81163ea20ed943c0c29df90f07f3dd0199a4e09424",
+      "sizeBytes": 605896
+    },
+    {
+      "code": "MICRO-04",
+      "path": "concept-reviews/MICRO-04.pdf",
+      "sha256": "2f33113ddafd439efd70e0dda650c99857b2fa488c7ed3558136f537bbf1ca84",
+      "sizeBytes": 533875
+    },
+    {
+      "code": "MICRO-05",
+      "path": "concept-reviews/MICRO-05.pdf",
+      "sha256": "3aa5d2eedf9a3cee4920adebdb026c47be767bd6bd341c25526ef1a5e096c331",
+      "sizeBytes": 628588
+    },
+    {
+      "code": "MICRO-06",
+      "path": "concept-reviews/MICRO-06.pdf",
+      "sha256": "b50fe275d821e1078c2698ff6bce827e70dfaea466ddee573007f08704659227",
+      "sizeBytes": 353477
+    },
+    {
+      "code": "MICRO-07",
+      "path": "concept-reviews/MICRO-07.pdf",
+      "sha256": "49ef907e57fa79e006ec4ae0a6e7981bae71853305c304d7e5d67fffc7166559",
+      "sizeBytes": 353611
+    },
+    {
+      "code": "MICRO-08",
+      "path": "concept-reviews/MICRO-08.pdf",
+      "sha256": "5c7e92102251048f5fdbc8722112757e186345c7f03f26f43795aa3f69e384f9",
+      "sizeBytes": 533432
+    },
+    {
+      "code": "MICRO-09",
+      "path": "concept-reviews/MICRO-09.pdf",
+      "sha256": "af90729ee8c23c9630fd153b3eb8f3b1397a018baa238c084f02d7ffe9d9928d",
+      "sizeBytes": 353569
+    }
+  ],
+  "conceptReviewCodes": [
+    "GEN-ECON-01",
+    "GEN-ECON-03",
+    "GEN-ECON-04",
+    "GEN-ECON-08",
+    "MICRO-04",
+    "MICRO-05",
+    "MICRO-06",
+    "MICRO-07",
+    "MICRO-08",
+    "MICRO-09"
+  ],
+  "conceptReviewDelivery": "selective-external-pdf",
+  "conceptReviewManifestPath": "concept-reviews/manifest.json",
+  "conceptReviewPdfBytes": 4422890,
+  "conceptReviewPdfCount": 10,
+  "conceptReviewRuntimeManifestBytes": 100917,
+  "conceptReviewWarnings": [
+    {
+      "canonicalConceptId": "consumer-and-producer-surplus",
+      "type": "diagnosable-parent-covered-by-children"
+    },
+    {
+      "canonicalConceptId": "costs-of-production",
+      "type": "diagnosable-parent-covered-by-children"
+    },
+    {
+      "canonicalConceptId": "elasticity",
+      "type": "diagnosable-parent-covered-by-children"
+    },
+    {
+      "canonicalConceptId": "integrated-economic-analysis",
+      "type": "diagnosable-no-sheet-meta"
+    },
+    {
+      "canonicalConceptId": "international-trade-and-trade-policy",
+      "type": "diagnosable-parent-covered-by-children"
+    },
+    {
+      "canonicalConceptId": "monopolistic-competition",
+      "type": "diagnosable-parent-covered-by-children"
+    },
+    {
+      "canonicalConceptId": "monopoly",
+      "type": "diagnosable-parent-covered-by-children"
+    },
+    {
+      "canonicalConceptId": "oligopoly",
+      "type": "diagnosable-parent-covered-by-children"
+    },
+    {
+      "canonicalConceptId": "perfect-competition",
+      "type": "diagnosable-parent-covered-by-children"
+    }
+  ],
+  "externalAssetFileCount": 0,
+  "generatedFilename": "my-faculty-mastery-quest.html",
+  "generationTimestamp": "1980-01-01T00:00:00.000Z",
+  "librarySha256": "63424e0425bb8d0ab38842d0d7951514d08c64be5f3dd6bb8718f91ada32b66b",
+  "libraryVersion": "phase6.2i-oligopoly-rich-bank-v1-costs-graph-v2-pc-graph-v2-monopoly-graph-v2-mcomp-graph-v2-elasticity-graph-v2-trade-graph-v2-phase6.3-targeted-production-repair-v1-phase6.4-graph-accessibility-v1-phase7.1-scarcity-standalone-expansion-v1-phase7.2-opportunity-cost-standalone-expansion-v1-phase7.3-marginal-analysis-standalone-expansion-v1-phase7.4-incentives-standalone-expansion-v1-phase7.5-comparative-advantage-gains-trade-standalone-expansion-v1-phase7.6-models-assumptions-light-touch-pilot-v1-phase7.7-general-economics-final-maturation-v1-phaseM2a-phillips-disinflation-family-maturation-v1-phaseM2b1-gdp-national-output-family-maturation-v1-phaseM2b2-inflation-real-values-family-maturation-v1-phaseM2b3-growth-productivity-family-maturation-v1-phaseM2b4-unemployment-labor-family-maturation-v1-phaseM2c1-money-banking-fed-family-maturation-v1-phaseM2c2-money-growth-inflation-neutrality-family-maturation-v1-phaseM2c3-money-market-policy-transmission-family-maturation-v1-phaseM2d1-ad-as-macro-equilibrium-family-maturation-v1-phaseM2d2-fiscal-stabilization-family-maturation-v1-phaseM2d3-stabilization-block-closure-v1-phaseM2e-advanced-macro-checkpoint-supplement-v1-phaseM4-final-macro-release-closure-v1-phaseMicro1-elasticity-granularity-pilot-v1-phaseMicro2-surplus-granularity-v1-phaseMicro3-trade-granularity-v1-phaseMicro3a-adaptive-depth-backfill-v1-phaseMicro3b-adaptive-support-backfill-v1-phaseMicro4-costs-granularity-adaptive-backfill-v1-phaseMicro5-perfect-competition-granularity-adaptive-backfill-v1-phaseMicro6-monopoly-granularity-adaptive-backfill-v1-phaseMicro7-monopolistic-competition-granularity-adaptive-backfill-v1-phaseMicro8-oligopoly-granularity-adaptive-backfill-v1-phaseQH1-question-independence-graph-hygiene-v1-phaseGraph1-demand-supply-core-v1-phaseGraph2-price-controls-taxes-v1-phaseGraph3-macro-ad-as-core-v1-phaseGraph4-money-market-ad-transmission-v1-phaseGraphAudit-remediation-v1-phaseMicroGraphAudit-remediation-v1-phaseTrialGraph-mode8-v1",
+  "poolCounts": {
+    "assets": 5,
+    "bridge": 60,
+    "calculation": 45,
+    "challengeFinal": 0,
+    "challengeLegendary": 0,
+    "challengeMiddle": 0,
+    "challengeOpening": 0,
+    "challengeTotal": 0,
+    "easy": 104,
+    "easyBoss": 37,
+    "elite": 59,
+    "fadingFortuneByDifficulty": {
+      "easy": 104,
+      "elite": 59,
+      "hard": 127,
+      "legendary": 191,
+      "medium": 102
+    },
+    "fadingFortuneEligible": 583,
+    "finalBoss": 37,
+    "graph": 71,
+    "graphSafe": 38,
+    "graphSafeByDifficulty": {
+      "easy": 7,
+      "elite": 7,
+      "hard": 8,
+      "legendary": 7,
+      "medium": 9
+    },
+    "hard": 127,
+    "integration": 0,
+    "legendary": 191,
+    "legendaryBoss": 68,
+    "medium": 102,
+    "mediumBoss": 37,
+    "repair": 64,
+    "repairSeed": 5,
+    "riskRewardByDifficulty": {
+      "easy": 104,
+      "elite": 59,
+      "hard": 127,
+      "legendary": 191,
+      "medium": 102
+    },
+    "riskRewardEligible": 583,
+    "totalCanonical": 891
+  },
+  "preflight": {
+    "modes": [
+      {
+        "deficiencies": [],
+        "issues": [],
+        "label": "Standard Campaign",
+        "mode": "standard",
+        "ok": true,
+        "requirements": [
+          {
+            "count": 104,
+            "minimum": 6,
+            "pool": "easy"
+          },
+          {
+            "count": 102,
+            "minimum": 6,
+            "pool": "medium"
+          },
+          {
+            "count": 127,
+            "minimum": 6,
+            "pool": "hard"
+          },
+          {
+            "count": 37,
+            "minimum": 3,
+            "pool": "easyBoss"
+          },
+          {
+            "count": 37,
+            "minimum": 3,
+            "pool": "mediumBoss"
+          },
+          {
+            "count": 37,
+            "minimum": 3,
+            "pool": "finalBoss"
+          },
+          {
+            "count": 64,
+            "minimum": 1,
+            "pool": "repair"
+          },
+          {
+            "count": 60,
+            "minimum": 1,
+            "pool": "bridge"
+          }
+        ]
+      },
+      {
+        "deficiencies": [],
+        "issues": [],
+        "label": "Timed Trial",
+        "mode": "timed",
+        "ok": true,
+        "requirements": [
+          {
+            "count": 104,
+            "minimum": 6,
+            "pool": "easy"
+          },
+          {
+            "count": 102,
+            "minimum": 6,
+            "pool": "medium"
+          },
+          {
+            "count": 127,
+            "minimum": 6,
+            "pool": "hard"
+          },
+          {
+            "count": 64,
+            "minimum": 1,
+            "pool": "repair"
+          },
+          {
+            "count": 60,
+            "minimum": 1,
+            "pool": "bridge"
+          }
+        ]
+      },
+      {
+        "deficiencies": [],
+        "issues": [],
+        "label": "Exam Drill",
+        "mode": "exam",
+        "ok": true,
+        "requirements": [
+          {
+            "count": 104,
+            "minimum": 6,
+            "pool": "easy"
+          },
+          {
+            "count": 102,
+            "minimum": 6,
+            "pool": "medium"
+          },
+          {
+            "count": 127,
+            "minimum": 6,
+            "pool": "hard"
+          },
+          {
+            "count": 64,
+            "minimum": 1,
+            "pool": "repair"
+          },
+          {
+            "count": 60,
+            "minimum": 1,
+            "pool": "bridge"
+          }
+        ]
+      },
+      {
+        "deficiencies": [],
+        "issues": [],
+        "label": "Quiz",
+        "mode": "quiz",
+        "ok": true,
+        "requirements": [
+          {
+            "count": 104,
+            "minimum": 5,
+            "pool": "easy"
+          },
+          {
+            "count": 102,
+            "minimum": 5,
+            "pool": "medium"
+          },
+          {
+            "count": 127,
+            "minimum": 5,
+            "pool": "hard"
+          }
+        ]
+      },
+      {
+        "deficiencies": [],
+        "issues": [],
+        "label": "Unlimited Practice",
+        "mode": "unlimited",
+        "ok": true,
+        "requirements": [
+          {
+            "count": 104,
+            "minimum": 6,
+            "pool": "easy"
+          },
+          {
+            "count": 102,
+            "minimum": 6,
+            "pool": "medium"
+          },
+          {
+            "count": 127,
+            "minimum": 6,
+            "pool": "hard"
+          },
+          {
+            "count": 64,
+            "minimum": 1,
+            "pool": "repair"
+          },
+          {
+            "count": 60,
+            "minimum": 1,
+            "pool": "bridge"
+          }
+        ]
+      },
+      {
+        "deficiencies": [],
+        "issues": [],
+        "label": "Legendary Mode",
+        "mode": "legendary",
+        "ok": true,
+        "requirements": [
+          {
+            "count": 191,
+            "minimum": 6,
+            "pool": "legendary"
+          },
+          {
+            "count": 68,
+            "minimum": 3,
+            "pool": "legendaryBoss"
+          }
+        ]
+      },
+      {
+        "deficiencies": [],
+        "issues": [],
+        "label": "Score Attack",
+        "mode": "score",
+        "ok": true,
+        "requirements": [
+          {
+            "count": 104,
+            "minimum": 6,
+            "pool": "easy"
+          },
+          {
+            "count": 102,
+            "minimum": 6,
+            "pool": "medium"
+          },
+          {
+            "count": 127,
+            "minimum": 6,
+            "pool": "hard"
+          },
+          {
+            "count": 37,
+            "minimum": 3,
+            "pool": "easyBoss"
+          },
+          {
+            "count": 37,
+            "minimum": 3,
+            "pool": "mediumBoss"
+          },
+          {
+            "count": 37,
+            "minimum": 3,
+            "pool": "finalBoss"
+          },
+          {
+            "count": 64,
+            "minimum": 1,
+            "pool": "repair"
+          },
+          {
+            "count": 60,
+            "minimum": 1,
+            "pool": "bridge"
+          }
+        ]
+      },
+      {
+        "deficiencies": [],
+        "issues": [],
+        "label": "Trial by Graph",
+        "mode": "trialGraph",
+        "ok": true,
+        "requirements": [
+          {
+            "count": 38,
+            "minimum": 10,
+            "pool": "graphSafe"
+          }
+        ]
+      },
+      {
+        "deficiencies": [],
+        "issues": [],
+        "label": "Fading Fortune",
+        "mode": "fadingFortune",
+        "ok": true,
+        "requirements": [
+          {
+            "count": 583,
+            "minimum": 10,
+            "pool": "fadingFortuneEligible"
+          }
+        ]
+      },
+      {
+        "deficiencies": [],
+        "issues": [],
+        "label": "Risk & Reward",
+        "mode": "riskReward",
+        "ok": true,
+        "requirements": [
+          {
+            "count": 583,
+            "minimum": 10,
+            "pool": "riskRewardEligible"
+          }
+        ]
+      }
+    ]
+  },
+  "routeCounts": {
+    "bridge": 92,
+    "repair": 99,
+    "repairSeed": 5
+  },
+  "saveKeyNamespace": "mq-econ:my-faculty-mastery-quest:607c4af51828",
+  "schemaVersion": "1.2.0",
+  "selectedConceptIds": [
+    "marginal-analysis",
+    "opportunity-cost",
+    "scarcity-and-tradeoffs",
+    "production-possibilities-frontier",
+    "elasticity"
+  ],
+  "slug": "my-faculty-mastery-quest",
+  "supportedModes": [
+    "standard",
+    "timed",
+    "exam",
+    "quiz",
+    "unlimited",
+    "legendary",
+    "score",
+    "trialGraph",
+    "fadingFortune",
+    "riskReward"
+  ],
+  "templateSha256": "ff092f69b248ff84623e62aa2febf5b9265c0cc7fa13f57938da7d12621d064f",
+  "timestampPolicy": "Fixed for deterministic ZIP output",
+  "title": "My Faculty Mastery Quest",
+  "warnings": []
+}
