@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My Faculty Mastery Quest</title>
+<body><p><a id="game" href="game-mqb-43784d424a935958ba573e398c26867b.html?v=mqb-43784d424a935958ba573e398c26867b">Open My Faculty Mastery Quest</a></p>
+<script>const requested = new URLSearchParams(location.search).get('v');
+const buildId = /^mqb-[a-f0-9]{32}$/.test(requested || '') ? requested : "mqb-43784d424a935958ba573e398c26867b";
+const url = new URL('game-' + buildId + '.html', location.href);
+url.search = location.search; url.searchParams.set('v', buildId); url.hash = location.hash;
+document.getElementById('game').href = url.href; location.replace(url.href);</script></body></html>
